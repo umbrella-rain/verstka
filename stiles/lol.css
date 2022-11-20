@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body, html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.container {
+    width:1110px;
+    margin: 0 auto;
+}
+
+body > header {
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+body > header .logo {
+    display: block;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 20px;
+    width: 224px; 
+}
+
+body > header .container {
+	display: flex;
+	height: 72px;
+}
+section.hero {
+	background-color: #296DCE;
+	background-image: url("../images/hero-angle.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.hero .container {
+	background-image: url("../images/karpachoff.png");
+	background-repeat: no-repeat;
+	background-position: bottom 0 right 20px;
+	height: 513px;
+	box-sizing: border-box;
+	padding-left: 22px;
+}
+
+section.hero h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 38px;
+	line-height: 53px;
+	color: #ffffff;
+	margin: 0;
+	text-transform: uppercase;
+	padding-top: 97px;
+}
+section.hero h1 div {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF8A00;
+	margin-top: 8px;
+}
+
+section.hero .to-about {
+	padding-top: 32px;
+}
+
+section.hero .to-about a {
+	width: 203px;
+	height: 38px;
+	
+	border: 3px solid #ffffff;
+	filter: drop-shadow(3px 3px 12px rgba(79, 79, 79, 0.1));
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	text-decoration: none;
+}
+section.hero .to-about:hover {
+	filter: brightness(0.9);
+}
+
+section.hero .progress {
+	padding-top: 70px;
+}
+
+section.hero .progress .bar-cont {
+	width: 465px;
+	background: #f3f3f3;
+	height: 15px;
+	display: flex;
+	align-items: center;
+	padding: 1px;
+	border-radius: 3px;
+
+}
+section.hero .progress .bar-cont > div {
+	height: 9px;
+	background: #296DCE;
+	border-radius: 2px;
+	width: 45%;
+}
+main h2 {
+	color: #1092CB;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+main .sub-title img {
+	height: 11px;
+
+}
+
+main .sub-title {
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	color:#979FAD;
+}
+
+main .container {
+	font-size: 16px;
+	line-height: 27px;
+	color: #696969;
+}
+
+.main .avaible {
+	font-size: 16px;
+	line-height: 27px;
+	color: #696969;
+}
+
+main .avaible span {
+color: #FE8907;
+}
+
+section.title h3 {
+	color: #1092CB;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+}
+section.title .sub-title img {
+	height: 11px;
+
+}
+
+section.title .sub-title {
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	color:#979FAD;
+}
+
+section .container {
+	font-size: 16px;
+	line-height: 27px;
+	color: #696969;
+}
+
+section.title .avaible1 {
+	font-size: 16px;
+	line-height: 27px;
+	color: #696969;
+}
+
+section.title .avaible1 span {
+color: #FE8907;
+}
